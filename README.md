@@ -13,6 +13,15 @@ https://github.com/DineshRajput21/groot
 
 - Create a new file and name it `react-native.config.js`
 - Paste, given lines of code
+  ```
+  module.exports = {
+  project:{
+  ios:{},
+  android:{},
+  },
+  assets:['./App/assets/fonts'],
+  }
+  ```
 - run `react-native link` command (To link your fonts with RN project)
 
 ### Step 3 (reanimated plugin)
