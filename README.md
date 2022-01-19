@@ -1,6 +1,6 @@
 # groot a perfect React native starter kit
 
-###Top Fetaures:###
+### Top Fetaures: ###
 - Redux 
 - Redux - Saga (Middleware)
 - Fonts Family
@@ -8,6 +8,7 @@
 - Top Tabs
 - Folder structure
 - Images/Icons file structure 
+
 
 ### Create new react-native App
 https://reactnative.dev/docs/environment-setup
@@ -38,7 +39,7 @@ https://github.com/DineshRajput21/groot
 - Open babel.config.js file
 - Add plugin plugins: ["react-native-reanimated/plugin",]
 
-### Step 4 (Install dependencies)
+### Step 4 (Install dependencies/Packages)
 
 - Add all of these dependencies in package.json file
 
