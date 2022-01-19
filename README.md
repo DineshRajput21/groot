@@ -13,6 +13,10 @@
 - Multi - language Support
 - Auto Import support
 - pre-defined common component
+- Onboarding Module
+  a) Login Screen
+  b) Signup Screen
+  c) Forget Password
 
 ### Create new react-native App
 https://reactnative.dev/docs/environment-setup
