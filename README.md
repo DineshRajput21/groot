@@ -1,6 +1,6 @@
 # groot a perfect React native starter kit
 
-### Top Fetaures: ###
+### Top Stuff: ###
 - Redux 
 - Redux - Saga (Middleware)
 - Fonts Family
@@ -9,6 +9,10 @@
 - Folder structure
 - Images/Icons file structure 
 
+### Upcoming Stuff: ###
+- Multi - language Support
+- Auto Import support
+- pre-defined common component
 
 ### Create new react-native App
 https://reactnative.dev/docs/environment-setup
