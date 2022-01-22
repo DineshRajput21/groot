@@ -52,15 +52,15 @@ https://github.com/DineshRajput21/groot
 - Add all of these dependencies in package.json file
 
 ```
-"@react-navigation/bottom-tabs": "⁶.0.9",
-"@react-navigation/material-top-tabs": "⁶.0.6",
-"@react-navigation/native": "⁶.0.6",
-"@react-navigation/native-stack": "⁶.2.5",
-"react-native-gesture-handler": "².1.1",
-"react-native-pager-view": "⁵.4.9",
-"react-native-reanimated": "².3.1",
-"react-native-safe-area-context": "³.3.2",
-"react-native-screens": "³.10.1",
+  "@react-navigation/bottom-tabs": "6.0.9",
+    "@react-navigation/material-top-tabs": "6.0.6",
+    "@react-navigation/native": "6.0.6",
+    "@react-navigation/native-stack": "6.2.5",
+    "react-native-gesture-handler": "2.1.1",
+    "react-native-pager-view": "5.4.9",
+    "react-native-reanimated": "2.3.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "3.10.1"
 ```
 
  - run `yarn install` OR `npm install`
