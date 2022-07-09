@@ -8,15 +8,15 @@
 - Top Tabs
 - Folder structure
 - Images/Icons file structure 
+- Onboarding Module
+  a) Login Screen
+  b) Signup Screen
 
 ### Upcoming Stuff: ###
 - Multi - language Support
 - Auto Import support
 - pre-defined common component
-- Onboarding Module
-  a) Login Screen
-  b) Signup Screen
-  c) Forget Password
+- API Integration (using axios)
 
 ### Create new react-native App
 https://reactnative.dev/docs/environment-setup
