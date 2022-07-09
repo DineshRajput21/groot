@@ -17,6 +17,8 @@
 - Auto Import support
 - pre-defined common component
 - API Integration (using axios)
+- TDD (Test Driven Development)
+- CICD Pipeline (AppCenter or Bitrise)
 
 ### Create new react-native App
 https://reactnative.dev/docs/environment-setup
