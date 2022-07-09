@@ -1,9 +1,9 @@
 import {all} from 'redux-saga/effects';
-import SignInSaga from '../common/screens/SignInScreen/Redux/Saga';
-import SignUpSaga from '#/common/screens/SignUpScreen/Redux/Saga';
-import SignJoinSaga from '#/common/screens/SignInToJoin/Redux/Saga';
+import SignInSaga from '../screens/onboarding/SignInScreen/saga.js';
+import SignUpSaga from '../screens/onboarding//SignUpScreen/saga.js';
+
 const root = function* rootSaga() {
-  yield all([SignInSaga(),SignJoinSaga(),SignUpSaga()]);
+  yield all([SignInSaga(), SignInSaga(),SignUpSaga()]);
 };
 
 export default root;

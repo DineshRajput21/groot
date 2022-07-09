@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { View, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import ChatScreen from '../screens/Tabs/ChatScreen';
-import HomeScreen from '../screens/Tabs/HomeScreen';
-import ProfileScreen from '../screens/Tabs/ProfileScreen';
-import {COLORS, ICONS} from '../assets';
+import ChatScreen from '../screens/TabsScreens/ChatScreen';
+import HomeScreen from '../screens/TabsScreens/HomeScreen';
+import ProfileScreen from '../screens/TabsScreens/ProfileScreen';
+import {COLORS, ICONS} from '../constants';
 
 const Tab = createBottomTabNavigator();
 const screenOptions = {
