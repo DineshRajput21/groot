@@ -10,17 +10,21 @@ const ProfileScreen = () => {
     const { t, i18n } = useTranslation();
     const [email, setEmail] = React.useState('');
 
-    React.useEffect(async () => {
+    const fetchUserEmail = React.useCallback(async () => {
         const data = await readData('email');
         setEmail(data);
     }, []);
+
+    React.useEffect(() => {
+        fetchUserEmail();
+    }, [fetchUserEmail]);
 
     const onLogoutPress = () => {
         replace('welcome');
     }
     return (
         <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center', }}>
-            <Text style={{ ...FONTS.h2, marginBottom:50 }}>{email}</Text>
+            <Text style={{ ...FONTS.h2, marginBottom: 50 }}>{email}</Text>
             <Text style={{ ...FONTS.body1 }}>
                 {t('common:languageSelector')}
             </Text>

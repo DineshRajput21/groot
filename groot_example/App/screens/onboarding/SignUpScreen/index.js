@@ -28,7 +28,7 @@ const SignUp = ({ navigation: { replace } }) => {
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.background }} >
             <View style={{ flex: 1, justifyContent: 'flex-start', alignItems: 'center', }}>
-                <Text style={{ ...FONTS.h1, marginVertical: 80, color: COLORS.white }}>SIGN UP</Text>
+                <Text style={{ ...FONTS.h1, marginVertical: 80, color: COLORS.primary }}>SIGN UP</Text>
                 <TextInput
                     style={{
                         marginTop: 10,
@@ -60,6 +60,7 @@ const SignUp = ({ navigation: { replace } }) => {
                     }}
                     placeholder='Password'
                     value={password}
+                    secureTextEntry={true}
                     onChangeText={(text) => onChange('password', text)}
                 />
                 <View style={{ width: '90%', marginTop: 80 }}>

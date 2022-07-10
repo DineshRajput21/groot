@@ -6,8 +6,8 @@ import { loginRequest } from './actions';
 
 const SignUp = ({ navigation: { replace } }) => {
   const dispatch = useDispatch();
-  const [email, setEmail] = useState('D@g.com');
-  const [password, setPassword] = useState('Admin1');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   const onChange = (key, value) => {
     key === 'email' ? setEmail(value) : setPassword(value);
@@ -15,9 +15,9 @@ const SignUp = ({ navigation: { replace } }) => {
 
   const submitLoginRequest = () => {
     if (!email) {
-      alert("Enter email!")
+      alert("Enter email!");
     } else if (!password) {
-      alert("Enter Password!")
+      alert("Enter Password!");
     } else {
       dispatch(loginRequest({ email, password }));
       return;
@@ -27,7 +27,7 @@ const SignUp = ({ navigation: { replace } }) => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.background }} >
       <View style={{ flex: 1, justifyContent: 'flex-start', alignItems: 'center', }}>
-        <Text style={{ ...FONTS.h1, marginVertical: 80, color: COLORS.white }}>LOGIN</Text>
+        <Text style={{ ...FONTS.h1, marginVertical: 80, color: COLORS.primary }}>Login</Text>
         <TextInput
           style={{
             marginTop: 30,
@@ -47,6 +47,7 @@ const SignUp = ({ navigation: { replace } }) => {
             padding: 15, backgroundColor: COLORS.lightBg
           }}
           placeholder='Password'
+          secureTextEntry={true}
           value={password}
           onChangeText={(text) => onChange('password', text)}
         />
