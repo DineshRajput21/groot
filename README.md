@@ -54,15 +54,27 @@ https://github.com/DineshRajput21/groot
 - Add all of these dependencies in package.json file
 
 ```
-  "@react-navigation/bottom-tabs": "6.0.9",
+    "@react-native-async-storage/async-storage": "^1.15.16",
+    "@react-navigation/bottom-tabs": "6.0.9",
     "@react-navigation/material-top-tabs": "6.0.6",
     "@react-navigation/native": "6.0.6",
     "@react-navigation/native-stack": "6.2.5",
+    "i18next": "^21.6.7",
+    "lottie-ios": "^3.2.3",
+    "lottie-react-native": "^5.0.1",
+    "react": "17.0.2",
+    "react-i18next": "^11.15.3",
+    "react-native": "0.67.1",
     "react-native-gesture-handler": "2.1.1",
+    "react-native-localize": "^2.1.7",
     "react-native-pager-view": "5.4.9",
     "react-native-reanimated": "2.3.1",
     "react-native-safe-area-context": "3.3.2",
-    "react-native-screens": "3.10.1"
+    "react-native-screens": "3.10.1",
+    "react-native-tab-view": "^3.1.1",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.1.3"
 ```
 
  - run `yarn install` OR `npm install`
