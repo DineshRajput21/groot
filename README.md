@@ -1,19 +1,19 @@
 # groot a perfect React native starter kit
 
 ### Top Stuff: ###
+- Folder structure
+- Images/Icons file structure 
+- Navigation basic structure (react-navigation)
+- Multi - language Support
 - Redux 
 - Redux - Saga (Middleware)
 - Fonts Family
-- Bottom Tabs
-- Top Tabs
-- Folder structure
-- Images/Icons file structure 
+- Bottom & Top Tabs
 - Onboarding Module
   a) Login Screen
   b) Signup Screen
 
 ### Upcoming Stuff: ###
-- Multi - language Support
 - Auto Import support
 - pre-defined common component
 - API Integration (using axios)
